@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.geyser_mc.custom_vehicles_raket_legend_camoforest.hold_first_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -3.75,
+            8.75,
+            6.0
+          ],
+          "rotation": [
+            -176.0,
+            -0.0,
+            0.0
+          ],
+          "scale": [
+            0.31,
+            0.31,
+            0.31
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_raket_legend_camoforest.head": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -8.023749,
+            15.7425,
+            7.6962495
+          ],
+          "rotation": [
+            -0.0,
+            90.0,
+            0.0
+          ],
+          "scale": [
+            2.22045,
+            2.22045,
+            2.22045
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_raket_legend_camoforest.hold_third_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -0.25,
+            12.5,
+            -0.0
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            -0.0
+          ],
+          "scale": [
+            0.24,
+            0.24,
+            0.24
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.geyser_mc.custom_vehicles_sportief_peppa.hold_third_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -0.0,
+            12.5,
+            -0.0
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0E-4,
+            1.0E-4,
+            1.0E-4
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_sportief_peppa.hold_first_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -5.0,
+            12.5,
+            0.0
+          ],
+          "rotation": [
+            -49.0,
+            -0.0,
+            0.0
+          ],
+          "scale": [
+            0.25,
+            0.25,
+            0.25
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_sportief_peppa.head": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            0.0,
+            2.9700012,
+            -5.24
+          ],
+          "rotation": [
+            -0.0,
+            -90.0,
+            0.0
+          ],
+          "scale": [
+            1.572,
+            1.572,
+            1.572
+          ]
+        }
+      }
+    }
+  }
+}

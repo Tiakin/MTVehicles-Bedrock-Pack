@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.geyser_mc.custom_vehicles_motor_koningsdag.hold_first_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -4.0,
+            12.5,
+            1.0
+          ],
+          "rotation": [
+            -232.0,
+            -0.0,
+            0.0
+          ],
+          "scale": [
+            0.25,
+            0.25,
+            0.25
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_motor_koningsdag.head": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            0.655,
+            6.9000006,
+            -11.789999
+          ],
+          "rotation": [
+            2.0,
+            -90.0,
+            0.0
+          ],
+          "scale": [
+            1.7029998,
+            1.7029998,
+            1.7029998
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_motor_koningsdag.hold_third_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -0.0,
+            12.5,
+            -0.0
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0E-4,
+            1.0E-4,
+            1.0E-4
+          ]
+        }
+      }
+    }
+  }
+}

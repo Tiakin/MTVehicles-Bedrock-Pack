@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.geyser_mc.custom_vehicles_sedan_sportief_emerald.head": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            0.0,
+            6.245001,
+            1.9649999
+          ],
+          "rotation": [
+            -0.0,
+            -90.0,
+            0.0
+          ],
+          "scale": [
+            1.7685,
+            1.7685,
+            1.7685
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_sedan_sportief_emerald.hold_third_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -0.0,
+            12.5,
+            -0.0
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_sedan_sportief_emerald.hold_first_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -5.0,
+            10.5,
+            0.0
+          ],
+          "rotation": [
+            -40.0,
+            -0.0,
+            0.0
+          ],
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ]
+        }
+      }
+    }
+  }
+}

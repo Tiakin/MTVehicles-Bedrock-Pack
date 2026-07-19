@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "geyser_mc:custom/items/sneeuwpoppetje",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.geyser_mc.custom_items_sneeuwpoppetje"
+      },
+      "animations": {
+        "third_person": "animation.geyser_mc.custom_items_sneeuwpoppetje.hold_third_person",
+        "first_person": "animation.geyser_mc.custom_items_sneeuwpoppetje.hold_first_person",
+        "head": "animation.geyser_mc.custom_items_sneeuwpoppetje.head"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "context.is_first_person == 1.0 && (context.item_slot == 'main_hand' || context.item_slot == 'off_hand')"
+          },
+          {
+            "third_person": "context.is_first_person == 0.0 && (context.item_slot == 'main_hand' || context.item_slot == 'off_hand')"
+          },
+          {
+            "head": "context.is_first_person == 0.0 && context.item_slot == 'head'"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.geyser_mc.custom_vehicles_suv_red.hold_third_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -0.0,
+            12.5,
+            -0.0
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0E-4,
+            1.0E-4,
+            1.0E-4
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_suv_red.head": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            0.0,
+            12.14,
+            0.655
+          ],
+          "rotation": [
+            -0.0,
+            -90.0,
+            0.0
+          ],
+          "scale": [
+            2.3579998,
+            2.4889998,
+            2.62
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_suv_red.hold_first_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -4.8695,
+            12.5,
+            0.0
+          ],
+          "rotation": [
+            -49.0,
+            -0.0,
+            0.0
+          ],
+          "scale": [
+            0.25,
+            0.25,
+            0.25
+          ]
+        }
+      }
+    }
+  }
+}

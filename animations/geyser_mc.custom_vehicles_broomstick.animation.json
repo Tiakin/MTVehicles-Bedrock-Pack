@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.geyser_mc.custom_vehicles_broomstick.hold_first_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -1.0,
+            12.5,
+            5.0
+          ],
+          "rotation": [
+            -180.0,
+            -0.0,
+            15.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_broomstick.head": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -3.9299998,
+            6.9000006,
+            3.9299998
+          ],
+          "rotation": [
+            -0.0,
+            90.0,
+            -8.0
+          ],
+          "scale": [
+            1.31,
+            1.31,
+            1.31
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_broomstick.hold_third_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            3.0,
+            11.5,
+            5.0
+          ],
+          "rotation": [
+            90.0,
+            -10.0,
+            -90.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  }
+}

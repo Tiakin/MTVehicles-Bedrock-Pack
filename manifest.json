@@ -1,30 +1,19 @@
 {
-    "format_version": 2,
-    "header": {
-        "description": "Converted by Tydium",
-        "name": "§2[MTVehicles]",
-        "uuid": "ce97b509-e632-4fd4-be91-e5c4f5c72eda",
-        "version": [
-            1,
-            0,
-            0
-        ],
-        "min_engine_version": [
-            1,
-            18,
-            3
-        ]
-    },
-    "modules": [
-        {
-            "description": "Converted by Tydium",
-            "type": "resources",
-            "uuid": "00414037-bbe9-4cde-86d7-fe8feb8c6688",
-            "version": [
-                1,
-                0,
-                0
-            ]
-        }
-    ]
+  "format_version": 2,
+  "header": {
+    "name": "§2[MTVehicles]",
+    "description": "The resourcepack for MTVehicles",
+    "uuid": "c4772be9-a173-49c8-a6a3-d410c3110167",
+    "version": [0, 2, 3],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "name": "§2[MTVehicles]",
+      "description": "The resourcepack for MTVehicles",
+      "uuid": "4fe0c9e9-1f87-4ccd-8c49-4c70c66e8920",
+      "version": [0, 2, 3]
+    }
+  ]
 }

@@ -1,124 +1,204 @@
 {
-  "format_version": "1.14.0",
+  "format_version": "1.20.20",
   "sound_definitions": {
-    "minetopiaclassic.horn1": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn10": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn1"
+        {
+          "name": "sounds/customminetopia_vehicles/horn10",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn2": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn11": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn2"
+        {
+          "name": "sounds/customminetopia_vehicles/horn11",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn3": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn12": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn3"
+        {
+          "name": "sounds/customminetopia_vehicles/horn12",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn4": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn14": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn4"
+        {
+          "name": "sounds/customminetopia_vehicles/horn14",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn5": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn16": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn5"
+        {
+          "name": "sounds/customminetopia_vehicles/horn16",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn6": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn18": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn6"
+        {
+          "name": "sounds/customminetopia_vehicles/horn18",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn7": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn17": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn7"
+        {
+          "name": "sounds/customminetopia_vehicles/horn17",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn8": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn19": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn8"
+        {
+          "name": "sounds/customminetopia_vehicles/horn19",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn9": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn13": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn9"
+        {
+          "name": "sounds/customminetopia_vehicles/horn13",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn10": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn15": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn10"
+        {
+          "name": "sounds/customminetopia_vehicles/horn15",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn11": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn20": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn11"
+        {
+          "name": "sounds/customminetopia_vehicles/horn20",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn12": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn1": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn12"
+        {
+          "name": "sounds/customminetopia_vehicles/horn1",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn13": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn2": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn13"
+        {
+          "name": "sounds/customminetopia_vehicles/horn2",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn14": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn4": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn14"
+        {
+          "name": "sounds/customminetopia_vehicles/horn4",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn15": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn5": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn15"
+        {
+          "name": "sounds/customminetopia_vehicles/horn5",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn16": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn6": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn16"
+        {
+          "name": "sounds/customminetopia_vehicles/horn6",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn17": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn9": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn17"
+        {
+          "name": "sounds/customminetopia_vehicles/horn9",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn18": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn3": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn18"
+        {
+          "name": "sounds/customminetopia_vehicles/horn3",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn19": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn7": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn19"
+        {
+          "name": "sounds/customminetopia_vehicles/horn7",
+          "is3D": true
+        }
       ]
     },
-    "minetopiaclassic.horn20": {
-      "max_distance": 64,
+    "minecraft:minetopiaclassic.horn8": {
+      "min_distance": 16.0,
+      "max_distance": 32.0,
       "sounds": [
-        "sounds/customminetopia_vehicles/horn20"
+        {
+          "name": "sounds/customminetopia_vehicles/horn8",
+          "is3D": true
+        }
       ]
     }
   }

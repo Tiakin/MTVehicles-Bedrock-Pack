@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.geyser_mc.custom_vehicles_fiets_vrouw_gray.head": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            0.0,
+            2.9700012,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -90.0,
+            0.0
+          ],
+          "scale": [
+            1.048,
+            1.048,
+            1.048
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_fiets_vrouw_gray.hold_third_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -0.0,
+            12.5,
+            -0.0
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0E-4,
+            1.0E-4,
+            1.0E-4
+          ]
+        }
+      }
+    },
+    "animation.geyser_mc.custom_vehicles_fiets_vrouw_gray.hold_first_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "position": [
+            -4.565,
+            12.5,
+            0.0
+          ],
+          "rotation": [
+            -48.0,
+            -0.0,
+            0.0
+          ],
+          "scale": [
+            0.25,
+            0.25,
+            0.25
+          ]
+        }
+      }
+    }
+  }
+}
