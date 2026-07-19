@@ -1,0 +1,4856 @@
+{
+  "format_version": 2,
+  "items": {
+    "minecraft:diamond_hoe": [
+      {
+        "model": "minecraft:diamond_hoe",
+        "definitions": [
+          {
+            "bedrock_identifier": "geyser_mc:custom/items/jerrycan_empty",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 59.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_items_jerrycan_empty_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/items/jerrycan_full",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 58.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_items_jerrycan_full_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/items/sneeuwpoppetje",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1205.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "minecraft.builtin_missing"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/items/wandelstok_clean",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1206.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "minecraft.builtin_missing"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1142.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_blue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1124.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_blue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_bordeaux",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1213.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_bordeaux_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_brown",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1127.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_brown_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_criminalblack",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1214.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_criminalblack_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1129.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_gray",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1128.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_gray_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1126.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_leaves",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1182.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_leaves_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_mint",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1215.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_mint_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_obsidian",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1181.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_obsidian_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_orange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1183.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_orange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1125.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1180.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1130.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_roodze",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1212.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_roodze_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/apache_upperblue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1131.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_apache_upperblue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/boat_1",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1274.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_boat_1_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/boat_2",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1275.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_boat_2_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/boat_3",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1276.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_boat_3_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/broomstick",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1229.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "minecraft.custom_vehicles_broomstick"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/broomstick2",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1236.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "minecraft.custom_vehicles_broomstick2"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/broomstick3",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1237.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "minecraft.custom_vehicles_broomstick3"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/broomstick4",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1238.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "minecraft.custom_vehicles_broomstick4"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/broomstick5",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1239.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "minecraft.custom_vehicles_broomstick5"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_babyblue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1225.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_babyblue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_blueblack",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1045.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_blueblack_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_bluediamond",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1143.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_bluediamond_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_brown",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1044.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_brown_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1144.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_gray",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1008.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_gray_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1043.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_king",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1200.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_king_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1145.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_man_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1146.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_man_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_babygirl",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1226.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_babygirl_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_blueblack",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1049.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_blueblack_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_bluediamond",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1147.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_bluediamond_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_brown",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1048.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_brown_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1148.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_gray",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1046.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_gray_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1047.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_king",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1199.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_king_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1149.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_rainbow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1187.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_rainbow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/fiets_vrouw_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1150.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_fiets_vrouw_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_army",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1164.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_army_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1161.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_blackyellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1075.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_blackyellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_blackyellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1163.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_blackyellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_blue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1159.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_blue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1158.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_orange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1160.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_orange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1162.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1006.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hotrod_valentijn",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1192.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hotrod_valentijn_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_babyblue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1152.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_babyblue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_blue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1032.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_blue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_champagne",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1154.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_champagne_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_desert",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1155.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_desert_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_ender",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1156.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_ender_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1029.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_goldenglass",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1153.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_goldenglass_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1031.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_lemonyellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1157.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_lemonyellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_orange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1030.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_orange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_purple",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1035.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_purple_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1033.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_white",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1009.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_white_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hoverboard_yellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1034.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hoverboard_yellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hovercraft_animatedpurpleyellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1211.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hovercraft_animatedpurpleyellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hovercraft_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1202.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hovercraft_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hovercraft_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1123.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hovercraft_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hovercraft_lime",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1121.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hovercraft_lime_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hovercraft_orange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1201.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hovercraft_orange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/hovercraft_white",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1122.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_hovercraft_white_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/jeep_blue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1073.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_jeep_blue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/jeep_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1074.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_jeep_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/jeep_politie",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1005.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_jeep_politie_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_blue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1038.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_blue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_easter",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1195.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_easter_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1039.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_gray",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1013.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_gray_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_gray",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1090.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_gray_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_gray",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1091.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_gray_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1037.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_koningsdag",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1197.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_koningsdag_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_orange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1036.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_orange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1042.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_police",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1040.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_police_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1041.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/motor_vierjaar",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1194.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_motor_vierjaar_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/plane",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1264.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_plane_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planeblue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1265.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planeblue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planedragon",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1266.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planedragon_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planefighter",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1267.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planefighter_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planefighter_oranje",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1268.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planefighter_oranje_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planegold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1269.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planegold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planegreen",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1270.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planegreen_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planeoctopus",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1271.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planeoctopus_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planeorange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1272.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planeorange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/planepurple",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1273.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_planepurple_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_animatedrainbow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1210.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_animatedrainbow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1165.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_diamond",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1170.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_diamond_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_emerald",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1167.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_emerald_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_ender",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1186.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_ender_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1168.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_orange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1171.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_orange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_orangeblack",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1172.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_orangeblack_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1169.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_purplefade",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1193.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_purplefade_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/racecar_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1166.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_racecar_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/raket_legend_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1257.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_raket_legend_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/raket_legend_camodark",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1258.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_raket_legend_camodark_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/raket_legend_camoforest",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1259.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_raket_legend_camoforest_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/raket_legend_camomarine",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1260.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_raket_legend_camomarine_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/raket_legend_desert",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1261.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_raket_legend_desert_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/raket_legend_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1262.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_raket_legend_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/raket_legend_sand",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1263.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_raket_legend_sand_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_babyblue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1109.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_babyblue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_beige",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1110.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_beige_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1111.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_brown",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1022.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_brown_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_cars",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1099.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_cars_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_cognac",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1112.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_cognac_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_gray",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1019.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_gray_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1018.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_kerst",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1189.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_kerst_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_koningsdag",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1026.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_koningsdag_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_lemonyellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1113.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_lemonyellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_lesauto",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1028.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_lesauto_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_lightning",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1100.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_lightning_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_lily",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1114.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_lily_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_monster",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1101.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_monster_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_navyblauw",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1003.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_navyblauw_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1020.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_politie",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1015.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_politie_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_purple",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1024.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_purple_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1017.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_1",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1176.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_1_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_2",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1177.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_2_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_3",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1178.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_3_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_4",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1179.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_4_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_babyboy",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1218.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_babyboy_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_babygirl",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1217.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_babygirl_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_diamond",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1025.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_diamond_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_emerald",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1115.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_emerald_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1175.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_goldv2",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1071.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_goldv2_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_kerst",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1190.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_kerst_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_lego",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1191.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_lego_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_obsidian",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1116.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_obsidian_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_obsidian",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1174.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_obsidian_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_president",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1173.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_president_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_quarts",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1023.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_quarts_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_sportief_rainbow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1027.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_sportief_rainbow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_yellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1021.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_yellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sedan_zalm",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1117.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sedan_zalm_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1070.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_blackyellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1062.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_blackyellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_bordeauxclean",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1216.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_bordeauxclean_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_diamond",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1069.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_diamond_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_emerald",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1067.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_emerald_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_fakegold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1246.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_fakegold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_fakegoldclean",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1247.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_fakegoldclean_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_flameblue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1064.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_flameblue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_flamegreen",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1223.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_flamegreen_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_flamepink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1224.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_flamepink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_flamered",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1063.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_flamered_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_flamewhite",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1065.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_flamewhite_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_forest",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1240.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_forest_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_forestclean",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1241.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_forestclean_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1066.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_koningsclean",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1196.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_koningsclean_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_navyblauw",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1002.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_navyblauw_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_nietrood",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1244.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_nietrood_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_nietroodclean",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1245.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_nietroodclean_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_orange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1068.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_orange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_peppa",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1248.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_peppa_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_peppaclean",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1249.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_peppaclean_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1061.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_puppel",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1242.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_puppel_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_puppelclean",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1243.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_puppelclean_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/sportief_white",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1060.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_sportief_white_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1141.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_blue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1132.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_blue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_bordeaux",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1222.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_bordeaux_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_brown",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1133.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_brown_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_cabrio_greenwhite",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1204.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_cabrio_greenwhite_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_cabrio_lightbluewhite",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1207.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_cabrio_lightbluewhite_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_cabrio_orangeblack",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1198.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_cabrio_orangeblack_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_cabrio_pinkwhite",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1209.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_cabrio_pinkwhite_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_cabrio_purplewhite",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1208.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_cabrio_purplewhite_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_cabrio_redblack",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1203.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_cabrio_redblack_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_criminalblack",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1220.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_criminalblack_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_ender",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1184.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_ender_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_giraffe",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1228.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_giraffe_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_gold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1134.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_gold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1135.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_lime",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1219.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_lime_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_navyblue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1221.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_navyblue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_pink",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1136.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_pink_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_pokemon",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1227.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_pokemon_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_politie",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1185.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_politie_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_red",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1137.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_red_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_stars",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1188.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_stars_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_upperblue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1138.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_upperblue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_white",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1139.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_white_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/suv_yellow",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1140.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_suv_yellow_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/tank_legend_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1250.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_tank_legend_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/tank_legend_camodark",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1251.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_tank_legend_camodark_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/tank_legend_camoforest",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1252.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_tank_legend_camoforest_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/tank_legend_camomarine",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1253.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_tank_legend_camomarine_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/tank_legend_desert",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1254.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_tank_legend_desert_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/tank_legend_green",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1255.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_tank_legend_green_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/tank_legend_sand",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1256.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_tank_legend_sand_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/ufo_vehicle",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1230.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_ufo_vehicle_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/ufo_vehicle_black",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1235.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_ufo_vehicle_black_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/ufo_vehicle_blackgold",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1232.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_ufo_vehicle_blackgold_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/ufo_vehicle_blue",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1234.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_ufo_vehicle_blue_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/ufo_vehicle_orange",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1231.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_ufo_vehicle_orange_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/ufo_vehicle_purple",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1233.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_ufo_vehicle_purple_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/wieken_groot",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1058.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_wieken_groot_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:custom/vehicles/wieken_klein",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 1059.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "geyser_mc.custom_vehicles_wieken_klein_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:item/diamond_hoe",
+            "predicate": {
+              "property": "damaged",
+              "type": "condition"
+            },
+            "bedrock_options": {
+              "icon": "minecraft.item_diamond_hoe",
+              "display_handheld": true
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "geyser_mc:item/diamond_hoe",
+            "predicate": [
+              {
+                "property": "damaged",
+                "expected": false,
+                "type": "condition"
+              },
+              {
+                "property": "damage",
+                "threshold": 0.0,
+                "scale": 1.0,
+                "type": "range_dispatch"
+              }
+            ],
+            "predicate_strategy": "and",
+            "bedrock_options": {
+              "icon": "minecraft.item_diamond_hoe",
+              "display_handheld": true
+            },
+            "type": "definition"
+          }
+        ],
+        "type": "group"
+      }
+    ]
+  }
+}
