@@ -6,17 +6,13 @@ This resource pack is not updated to include the new vehicles at this time. This
 ## Setup
 This setup is intended for users who already have the MTVehicles/Geyser plugin inside of their server. Please make sure you set that up first before attempting this.
 
-1. Download the pack and mappings from the newest [releases](https://github.com/Tydium/MTVehicles-Bedrock-Pack/releases)
-2. Put the MTVehicles1.0.0.mcpack into the "packs" folder of your geyser plugin folder.
-3. Put the MTVehicles1.0.0_mappings.json into the "custom_mappings" folder of your geyser plugin folder.
+1. Download the pack and mappings from the newest [releases](https://github.com/Tiakin/MTVehicles-Bedrock-Pack/releases)
+2. Put the .mcpack into the "packs" folder of your geyser plugin folder.
+3. Put the mappings.json into the "custom_mappings" folder of your geyser plugin folder.
 4. Boot Geyser
 5. Done!
 
-## Support and Issues
-If by chance the pack becomes outdated or a bug is present feel free to contact me in the Geyser discord server (ping @Tydium), or make an issue report here in the github. I will fix the issue as soon as possible.
-
-## Notice
-I am not the owner or creator of the original MTVehicles plugin. I am just part of the community and have created this resource pack for the public. Please do not contact me for general issues about the plugin or java version of the resource pack. Thank you.
+Thanks Tydium !
 
 ## Preview
 
